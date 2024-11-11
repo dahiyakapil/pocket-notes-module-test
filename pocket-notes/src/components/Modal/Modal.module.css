@@ -1,8 +1,8 @@
 .modalcontainer {
   background-color: rgba(255, 255, 255, 1);
-  min-height: 30vh;
-  width: 40vw;
-  max-width: 45vw;
+  min-height: 260px;
+  width: 582px;
+  max-width: 720px;
   z-index: 1;
   position: fixed;
   bottom: 30%;
