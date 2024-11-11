@@ -104,22 +104,22 @@ export const Modal = (props) => {
             </div>
           ))}
         </div>
-      </div>
-      <div className={stylesModal.createbtn}>
-        <button onClick={handleGroupChange}>Create</button>
-        <ToastContainer
-          position="top-right"
-          autoClose={2000}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick
-          closeButton={false}
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-          theme="dark"
-        />
+        <div className={stylesModal.createbtn}>
+          <button onClick={handleGroupChange}>Create</button>
+          <ToastContainer
+            position="top-right"
+            autoClose={2000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            closeButton={false}
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="dark"
+          />
+        </div>
       </div>
     </div>
   );

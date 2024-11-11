@@ -108,39 +108,62 @@
   cursor: pointer;
   margin-left: 26rem;
 }
+
 @media (max-width: 768px) {
   .modalcontainer {
     background-color: rgba(255, 255, 255, 1);
-    min-height: 30vh;
-    min-width: 90vw;
+    height: 300px;
+    width: 400px;
     z-index: 1;
     position: fixed;
     bottom: 40%;
-    left: 3%;
+    left: 5%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     overflow: hidden;
+    margin-right: 20px;
+    margin-left: 0px;
+  }
+
+  .modalcontent{
+    margin-right: 216px;
   }
 
   .modalcontent > h1 {
     font-size: 1.5rem;
+    margin-left: 195px;
+    margin-left: 195px;
   }
   .colors > h1 {
     font-size: 0.8rem;
     font-style: normal;
     font-weight: bold;
     margin-right: 0.5rem;
+    margin-left: 195px;
   }
   .modaltext > label {
     font-size: 0.8rem;
     font-weight: bolder;
+    margin-left: 195px;
+    margin-top: 45px;
   }
   .color > p {
     margin: 0.2rem;
+    width: 20px;
+    height: 20px;
+  }
+
+  .createbtn{
+    margin-left: -145px;
+    margin-top: 23px;
   }
   .modaltext input {
     margin-left: 0rem;
     font-size: 0.8rem;
+    margin-left: 295px;
+    width: 200px;
   }
 }
+
+
