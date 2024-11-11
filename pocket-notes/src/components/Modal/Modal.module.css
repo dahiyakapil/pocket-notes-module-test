@@ -38,7 +38,7 @@
 .modaltext > label {
   color: rgba(0, 0, 0, 1);
   font-family: Roboto;
-  font-size: 24;
+  font-size: 24px;
   font-style: normal;
   font-weight: bold;
   line-height: 160.188%;
@@ -63,7 +63,7 @@
 .colors > h1 {
   color: rgba(0, 0, 0, 1);
   font-family: Roboto;
-  font-size: 24;
+  font-size: 24px;
   font-style: normal;
   font-weight: bold;
   line-height: 160.188%;
