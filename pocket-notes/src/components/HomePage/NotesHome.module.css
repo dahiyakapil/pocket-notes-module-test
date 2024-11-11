@@ -8,8 +8,8 @@
 }
 
 .homecontainer > img {
-    height: 432px;
-    width: 576px;
+    height: 40vh;
+    width: 40vw;
 } 
 .homecontainer h1 {
     color: rgba(0, 0, 0, 1);
