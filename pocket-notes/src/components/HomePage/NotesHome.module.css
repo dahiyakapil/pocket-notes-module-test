@@ -3,13 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 1080px;
     position: relative;
 }
 
 .homecontainer > img {
-    height: 40vh;
-    width: 40vw;
+    height: 432px;
+    width: 576px;
 } 
 .homecontainer h1 {
     color: rgba(0, 0, 0, 1);
