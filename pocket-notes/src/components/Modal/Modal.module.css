@@ -13,6 +13,7 @@
   overflow: hidden;
   border-radius: 10px;
   margin-right: 1rem;
+  box-shadow: 350px 350px 350px 1200px rgba(47, 47, 47, 0.75);
 }
 
 .modalcontent {
@@ -107,44 +108,39 @@
   cursor: pointer;
   margin-left: 26rem;
 }
+@media (max-width:768px) {
+    .modalcontainer {
+        background-color: #DAE5F5;
+        min-height: 30vh;
+        min-width: 90vw;
+        z-index: 1;
+        position: fixed;
+        bottom: 40%;
+        left: 3%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
 
-@media (max-width: 768px) {
-  .modalcontainer {
-    background-color: rgba(255, 255, 255, 1);
-    min-height: 30vh;
-    min-width: 40vw;
-    z-index: 1;
-    position: fixed;
-    bottom: 40%;
-    left: 0%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    overflow: hidden;
-  }
-
-  .modalcontent > h1 {
-    font-size: 1.5rem;
-  }
-  .colors > h1 {
-    font-size: 0.8rem;
-    font-style: normal;
-    font-weight: bold;
-    margin-right: 0.5rem;
-  }
-
-  .createbtn button {
-    margin-left: 22px;
-  }
-  .modaltext > label {
-    font-size: 0.8rem;
-    font-weight: bolder;
-  }
-  .color > p {
-    margin: 0.2rem;
-  }
-  .modaltext input {
-    margin-left: 0rem;
-    font-size: 0.8rem;
-  }
+    .modalcontent>h1 {
+        font-size: 1.5rem;
+    }
+    .colors>h1 {
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: bold;
+        margin-right: 0.5rem;
+    }
+    .modaltext>label {
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+    .color>p {
+        margin: 0.2rem;
+    }
+    .modaltext input {
+        margin-left: 0rem;
+        font-size: 0.8rem;
+    }
 }

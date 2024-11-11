@@ -8,6 +8,7 @@ export const NotesGroups = (props) => {
     props.getNotes(groupId);
     setselectedGroupID(groupId);
   };
+
   return (
     <>
       <div className={stylesNotesGroup.groupcontainer}>

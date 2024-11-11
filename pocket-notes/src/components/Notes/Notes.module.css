@@ -6,11 +6,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 20vh;
+  min-height: 50vh;
   flex-grow: 1;
   overflow-y: auto;
   z-index: 1;
   margin-bottom: 13rem;
+  margin-top: 0px;
 }
 .notes_header {
   background: rgba(0, 31, 139, 1);
@@ -129,11 +130,12 @@
   }
 
   .notes_text_area {
-    left: 4%;
+    left: 0%;
+   border-radius: 0;
   }
 
   .notes_text_area textarea {
-    width: 80vw;
+    width: 85vw;
   }
 }
 @media (min-width: 769px) {
