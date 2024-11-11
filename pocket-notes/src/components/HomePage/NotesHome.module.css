@@ -1,0 +1,39 @@
+.homecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.homecontainer > img {
+    height: 40vh;
+    width: 40vw;
+} 
+.homecontainer h1 {
+    color: rgba(0, 0, 0, 1);
+    font-family: Roboto;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+.homedescription {
+    width: 50vw;
+    color: rgba(41, 41, 41, 1);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px; 
+    letter-spacing: 0.44px;
+    padding: 1rem;
+}
+.homeencryption {
+    position: absolute;
+    left: 40%;
+    bottom: 5%;
+}

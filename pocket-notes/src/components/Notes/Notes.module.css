@@ -1,0 +1,143 @@
+.notes_wrapper {
+  position: relative;
+}
+.notess_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  flex-grow: 1;
+  overflow-y: auto;
+  z-index: 1;
+  margin-bottom: 13rem;
+}
+.notes_header {
+  background: rgba(0, 31, 139, 1);
+  width: 70vw;
+  text-align: left;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1rem;
+  z-index: 2;
+}
+.notes_header > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 97.688%;
+  letter-spacing: 0.482px;
+}
+.notes_header > h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.notess {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  margin: 1rem;
+  width: 60vw;
+  text-align: justify;
+  color: rgba(0, 0, 0, 1);
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34.94px;
+  letter-spacing: 2%;
+  word-wrap: break-word;
+}
+.notess h4 {
+  text-align: right;
+  color: rgba(53, 53, 53, 1);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 17.58px;
+  letter-spacing: 0.02em;
+
+}
+.notes_text_area {
+  position: fixed;
+  background: rgba(0, 31, 139, 1);
+  bottom: 0;
+  left: 30%;
+  padding: 1rem;
+  border-radius: 0 0 0 1rem;
+}
+.notes_text_area textarea {
+  border: none;
+  resize: none;
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  width: 66vw;
+  outline: none;
+}
+
+.notes_text_area img {
+  position: absolute;
+  right: 7%;
+  bottom: 15%;
+  cursor: pointer;
+}
+
+@media (max-width: 363px) {
+  .notess {
+    width: 80vw;
+  }
+
+  .notes_header {
+    width: 100vw;
+  }
+
+  .notes_text_area {
+    left: 4%;
+  }
+
+  .notes_text_area textarea {
+    width: 75vw;
+  }
+}
+@media (min-width: 364px) and (max-width: 768px) {
+  .notess {
+    width: 80vw;
+  }
+
+  .notes_header {
+    width: 100vw;
+  }
+
+  .notes_text_area {
+    left: 4%;
+  }
+
+  .notes_text_area textarea {
+    width: 80vw;
+  }
+}
+@media (min-width: 769px) {
+  .notes_header > img {
+    display: none;
+  }
+}
